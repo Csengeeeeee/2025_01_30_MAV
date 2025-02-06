@@ -1,7 +1,17 @@
 table {
     border: 1px solid;
     background-color: mediumorchid;
-    color: rgb(236, 200, 147);
+    color: rgb(255, 255, 255);
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
+  }
+
+  td {
+    background-color: rgb(148, 56, 171);
+  }
+  #keses {
+    background-color: rgb(255, 0, 0);
+  }
+  .elsooszlop {
+    background-color: rgb(90, 53, 124);
   }
