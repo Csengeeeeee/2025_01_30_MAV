@@ -10,8 +10,12 @@ table {
     background-color: rgb(148, 56, 171);
   }
   #keses {
-    background-color: rgb(255, 0, 0);
-  }
+    background-color: red;
+} 
   .elsooszlop {
     background-color: rgb(90, 53, 124);
+  }
+  table, th, td {
+    border: 1px solid;
+    border-color: black;
   }
