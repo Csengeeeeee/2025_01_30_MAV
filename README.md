@@ -1,19 +1,17 @@
 ## MÁV utastájékoztató
 
-Ez a projekt a vonatrok indulását és érkezését mutatja be.
+Ez a projekt a vonatok indulását és érkezését mutatja be.
 
-### 📌 Funkciók
-- 🚉 Induló és érkező vonatok
-- ⏰ Állomás, indulási és érkezési idők megjelenítése
+### Funkciók
+- 🚂 Induló és érkező vonatok
+- 🕒 Vágány, érkező és induló vonatok idő szerint
 
-### 🚀 Használat
-Egyszerűen nyisd meg a `https://github.com/Csengeeeeee/2025_01_30_MAV.git` weboldalt a böngészőben, és a rendszer betölti az aktuális adatokat.
-#### 🌍 Élő demó
-
-A projekt élőben megtekinthető az alábbi linken:  
+### ❓ Hogyan használjuk?
+Nyisd meg a `https://github.com/Csengeeeeee/2025_01_30_MAV.git` weboldalt.
+A projekt megtekinthető az alábbi linken:  
 [🔗 MÁV Utastájékoztató](https://github.com/Csengeeeeee/2025_01_30_MAV.git)
 
-### 🏗️ Alap HTML szerkezet
+### 📖 Alap HTML kód
 ```html
 <!DOCTYPE html>
 <html lang="hu">
@@ -26,14 +24,6 @@ A projekt élőben megtekinthető az alábbi linken:
 <body>
     <table>
         <thead>
-            <tr>
-                <th>8:43:03</th>
-                <th>MÁV induló járatok</th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th><img src="mav-szarnyaskerek.png" alt="MÁV" height="100px" title="Máv-logó"></th>
-            </tr>
         <tr>
                 <th>Tervezett érkezés</th>
                 <th>Érkezés</th>
@@ -60,39 +50,6 @@ A projekt élőben megtekinthető az alábbi linken:
                 <td>Csongrád</td>
                 <td>2</td>
             </tr>           
-            <tr>
-                <td class="elsooszlop">9:22</td>
-                <td></td>
-                <td>IC</td>
-                <td>Szeged</td>
-                <td>Szatymaz-Kistelek</td>
-                <td>4</td>
-            </tr>           
-            <tr>
-                <td class="elsooszlop">9:24</td>
-                <td></td>
-                <td>SZ</td>
-                <td>Lakitelek</td>
-                <td>Tiszaalpár</td>
-                <td>1</td>
-            </tr>            
-            <tr>
-                <td class="elsooszlop">9:27</td>
-                <td></td>
-                <td>IC</td>
-                <td>Nyugati** Budapest</td>
-                <td>Cegléd-Kecskemét</td>
-                <td>5</td>
-            </tr>            
-            <tr>
-                <td class="elsooszlop">9:30</td>
-                <td></td>
-                <td>IC</td>
-                <td>Szeged</td>
-                <td>Szatymaz-Kistelek</td>
-                <td>3</td>
-            </tr>
-
         </tbody>
     </table>
     <a href="indulovonatok.html">Induló vonatok</a>
@@ -100,7 +57,7 @@ A projekt élőben megtekinthető az alábbi linken:
 </html>
 ```
 
-## 🎨 CSS Stílusok
+## 🎨🖌️ CSS
 ```css
 table {
     border: 1px solid;
