@@ -9,7 +9,7 @@ Ez a projekt a vonatok indulását és érkezését mutatja be.
 ### ❓ Hogyan használjuk?
 Nyisd meg a `https://github.com/Csengeeeeee/2025_01_30_MAV.git` weboldalt.
 A projekt megtekinthető az alábbi linken:  
-[🔗 MÁV Utastájékoztató](https://github.com/Csengeeeeee/2025_01_30_MAV.git)
+[🔗 MÁV Utastájékoztató](https://csengeeeeee.github.io/2025_01_30_MAV/)
 
 ### 📖 Alap HTML kód
 ```html
